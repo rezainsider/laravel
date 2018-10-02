@@ -30,6 +30,7 @@ class AuthController extends Controller
      */
     public function __construct()
     {
+        dd(5455);
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
